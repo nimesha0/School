@@ -1,0 +1,203 @@
+header{
+    margin: 50px;
+    padding-left: 200px;
+    word-spacing: 5px;
+    font-weight: bolder;
+    list-style: decimal;
+   
+}
+
+.heading{
+    padding-top: 10px;
+    padding-left: 150px;
+    color: rgb(92, 47, 47);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(92, 47, 47);
+    color: white;
+    overflow-y: auto;
+    padding-top: 50px;
+  }
+  .navbar i {
+    padding-right: 10px;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration:none;
+    transition: all 0.4s;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 45px;
+
+  }
+
+  .navbar a:hover {
+    background-color: #f7eeee;
+    color:black;
+  }
+
+.slider {
+    width: 84%;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    margin-left: 230px;
+  }
+  
+  .p1{
+    margin-left: 360px;
+    color: rgb(91, 86, 86);
+    font-size: 16px;
+    padding-top: 30px;
+    line-height: 25px;
+
+  }
+  .p1 h3{
+    font-size: 35px;
+    color: rgb(43, 42, 42);
+  }
+
+  .p2{
+    margin-top: 100px;
+    line-height: 25px;
+  }
+  .p2 h2{
+    font-size: 30px;
+    color:rgba(105, 38, 38, 0.989) ;
+  }
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 600px) {
+    .column1 {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  .card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color:#fbf6f6;
+    color: #312d2d;
+    float: left;
+    width: 30%;
+    margin-left: 350px;
+    color:rgba(42, 21, 21, 0.989) ;
+    margin-top: 60px;
+    font-style: italic;
+  }
+  .card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color:#fbf6f6;
+    color: #312d2d;
+    float: right;
+    width: 30%;
+    margin-right: 20px;
+    color:rgba(42, 21, 21, 0.989) ;
+    margin-top: 60px;
+    font-style: italic;
+  }
+
+  .p3{
+    margin-left: 200px;
+    padding-left: 450px;
+    padding-top: 100px;
+    
+
+  }
+  .branches-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 250px;
+    margin-right: 50px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+  }
+  
+  .branches {
+    width: 28%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  }
+  
+  .branches img {
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+  }
+  .branches button{
+    cursor: pointer;
+    background-color: rgb(54, 52, 52);
+    color: #f2f2f2;
+  }
+
+  footer {
+   
+    margin-left: 230px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+  }
+  
+  .f1{
+    width: 40%;
+    height: 550px;
+   
+    border-radius: 5%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  color: #777;
+   padding: 30px 30px 30px 30px;
+   letter-spacing: 1.5px;
+   word-spacing: 6px;
+   line-height: 20px;
+   float:left;
+ 
+}
+.f1 i{
+    color:  rgb(92, 47, 47);
+    font-size: larger;
+}
+.f2{
+    width: 40%;
+    height: 550px;
+    border-radius: 5%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+   padding: 30px 30px 30px 30px;
+   float:right;
+   margin-right: 50px;
+   color: #777;
+   line-height: 25px;
+}
+.f2 h3{
+    color: #333;
+}
+.f3{
+    margin-top: 150px;
+    padding-left: 80px;
+}

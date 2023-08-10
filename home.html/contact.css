@@ -1,0 +1,122 @@
+header{
+    margin: 50px;
+    padding-left: 200px;
+    word-spacing: 5px;
+    font-weight: bolder;
+    list-style: decimal;
+   
+}
+
+.heading{
+    padding-top: 10px;
+    padding-left: 150px;
+    color: rgb(92, 47, 47);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(92, 47, 47);
+    color: white;
+    overflow-y: auto;
+    padding-top: 50px;
+  }
+  .navbar i {
+    padding-right: 10px;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration:none;
+    transition: all 0.4s;
+    margin-top: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 45px;
+
+  }
+
+  .navbar a:hover {
+    background-color: #f7eeee;
+    color:black;
+  }
+
+  #c{
+    width: 83.5%;
+    height:800px ;
+    background-image: url("https://media.istockphoto.com/id/485776945/photo/group-of-diverse-international-students-celebrating-graduation.jpg?b=1&s=170667a&w=0&k=20&c=2lm5usGA6fPhezJRk1KL827zbcSJvUKmB-zsoosFU1U=");
+    background-size: cover;
+  
+   margin-bottom:10px ;
+   margin-left: 230px;
+   
+}
+
+#c1{
+    background-color:white; ;
+    height: 600px;
+    width: 450px;
+    border-radius: 30px;
+    word-spacing: 1.5px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.7;
+    font-weight: bolder;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+  footer {
+   
+    margin-left: 230px;
+    position: relative;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    margin-top: 50px;
+  }
+  
+  .f1{
+    width: 40%;
+    height: 550px;
+   
+    border-radius: 5%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  color: #777;
+   padding: 30px 30px 30px 30px;
+   letter-spacing: 1.5px;
+   word-spacing: 6px;
+   line-height: 20px;
+   float:left;
+ 
+}
+.f1 i{
+    color:  rgb(92, 47, 47);
+    font-size: larger;
+}
+.f2{
+    width: 40%;
+    height: 550px;
+    border-radius: 5%;
+    margin-top: 60px;
+    margin-bottom: 10px;
+   padding: 30px 30px 30px 30px;
+   float:right;
+   margin-right: 50px;
+   color: #777;
+   line-height: 25px;
+}
+.f2 h3{
+    color: #333;
+}
+.f3{
+    margin-top: 150px;
+    padding-left: 80px;
+}
